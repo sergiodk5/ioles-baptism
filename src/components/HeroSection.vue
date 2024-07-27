@@ -5,7 +5,7 @@
   >
     <div
       data-aos="fade-in"
-      class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center"
+      class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center z-10 text-center"
     >
       <h1 class="text-4xl md:text-6xl mb-4">Welcome to Iole's Baptism Celebration!</h1>
       <p class="text-xl md:text-2xl">Join us in celebrating this special day.</p>

@@ -11,9 +11,3 @@
 </template>
 
 <script lang="ts" setup></script>
-
-<style scoped>
-i {
-  margin-right: 8px;
-}
-</style>

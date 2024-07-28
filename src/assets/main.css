@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.parallax-layer {
+  position: absolute;
+  will-change: transform;
+}
+
+.unicorn img,
+.star img {
+  width: 100px;
+  height: 100px;
+}

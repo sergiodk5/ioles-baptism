@@ -13,7 +13,8 @@ export default {
         'dark-purple': '#8A2BE2',
         indigo: '#4B0082',
         'light-pink': '#FFC0CB',
-        'warm-white': '#FFF5E6'
+        'warm-white': '#FFF5E6',
+        'cloud-gray': '#f0f4f8'
       }
     }
   },

@@ -1,9 +1,5 @@
 <template>
-  <section id="location" class="bg-pastel py-10 text-center">
-    <h2 data-aos="fade-up" class="text-3xl font-serif mb-4">Location</h2>
-    <p data-aos="fade-up" data-aos-delay="100" class="text-xl mb-4">
-      Chapel of Panagia (Zoodochos Pigi), Kozani
-    </p>
+  <section id="location" class="bg-pastel text-center">
     <iframe
       title="map"
       data-aos="fade-up"

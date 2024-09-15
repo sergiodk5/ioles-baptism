@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Playfair Display', 'sans-serif']
+        sans: ['Fira Sans', 'sans-serif']
       },
       colors: {
         'gold-yellow': '#FFD700',
@@ -14,7 +14,9 @@ export default {
         indigo: '#4B0082',
         'light-pink': '#FFC0CB',
         'warm-white': '#FFF5E6',
-        'cloud-gray': '#f0f4f8'
+        'cloud-gray': '#f0f4f8',
+        'card-pink': '#C48086',
+        'card-gold': '#9E8652'
       }
     }
   },

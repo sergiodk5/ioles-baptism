@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import LogoSmall from '@/components/LogoSmall.vue'
-import HeroSection from '@/components/HeroSection.vue'
 import DateTimeSection from '@/components/DateTimeSection.vue'
 import LocationSection from '@/components/LocationSection.vue'
 import RegistrationForm from '@/components/RegistrationForm.vue'
@@ -15,7 +14,6 @@ import WelcomeSection from '@/components/WelcomeSection.vue'
       <LogoSmall />
     </div>
     <WelcomeSection />
-    <HeroSection />
     <DateTimeSection />
     <LocationSection />
     <RegistrationForm />

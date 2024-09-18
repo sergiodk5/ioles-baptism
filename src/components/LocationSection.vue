@@ -1,5 +1,5 @@
 <template>
-  <section id="location" class="bg-pastel text-center">
+  <section id="location" class="bg-white text-center">
     <iframe
       title="map"
       data-aos="fade-up"
@@ -17,9 +17,3 @@
 </template>
 
 <script lang="ts" setup></script>
-
-<style scoped>
-.bg-pastel {
-  background-color: #f9f9f9;
-}
-</style>

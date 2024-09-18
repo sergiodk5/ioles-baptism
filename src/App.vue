@@ -5,6 +5,7 @@ import LocationSection from '@/components/LocationSection.vue'
 import PhotoGallery from '@/components/PhotoGallery.vue'
 import WelcomeSection from '@/components/WelcomeSection.vue'
 import GuestStars from '@/components/GuestStars.vue'
+import CantWait from '@/components/CantWait.vue'
 </script>
 
 <template>
@@ -17,12 +18,13 @@ import GuestStars from '@/components/GuestStars.vue'
     <LocationSection />
     <GuestStars />
     <PhotoGallery />
+    <CantWait />
   </div>
 </template>
 
 <style scoped>
 .papper-bg {
-  background-image: url('@/assets/watercolor-paper.png');
+  /* background-image: url('@/assets/wa tercolor-paper.png'); */
   background-repeat: repeat;
   background-attachment: fixed;
 }

@@ -29,7 +29,7 @@
       2024
     </div>
 
-    <div>
+    <div class="asd max-w-3xl mx-auto">
       <CountDown />
     </div>
 

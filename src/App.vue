@@ -2,10 +2,9 @@
 import LogoSmall from '@/components/LogoSmall.vue'
 import DateTimeSection from '@/components/DateTimeSection.vue'
 import LocationSection from '@/components/LocationSection.vue'
-import RegistrationForm from '@/components/RegistrationForm.vue'
 import PhotoGallery from '@/components/PhotoGallery.vue'
-import ContactUs from '@/components/ContactUs.vue'
 import WelcomeSection from '@/components/WelcomeSection.vue'
+import GuestStars from '@/components/GuestStars.vue'
 </script>
 
 <template>
@@ -16,9 +15,8 @@ import WelcomeSection from '@/components/WelcomeSection.vue'
     <WelcomeSection />
     <DateTimeSection />
     <LocationSection />
-    <RegistrationForm />
+    <GuestStars />
     <PhotoGallery />
-    <ContactUs />
   </div>
 </template>
 

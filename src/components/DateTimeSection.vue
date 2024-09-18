@@ -10,13 +10,13 @@
     </div>
     <div data-aos="fade-up" data-aos-delay="100" class="flex items-center justify-center gap-2">
       <div
-        class="text-center border-t-[1px] border-b-[1px] border-card-pink py-1 text-2xl font-bold text-card-pink"
+        class="text-center border-t-[1px] border-b-[1px] border-card-pink py-1 text-2xl text-card-pink"
       >
         SATURDAY
       </div>
-      <div class="flex items-center justify-center text-card-gold font-bold text-6xl">05</div>
+      <div class="flex items-center justify-center text-card-gold text-6xl">05</div>
       <div
-        class="text-center border-t-[1px] border-b-[1px] border-card-pink py-1 text-2xl font-bold text-card-pink"
+        class="text-center border-t-[1px] border-b-[1px] border-card-pink py-1 text-2xl text-card-pink"
       >
         AT 6:00 PM
       </div>
@@ -33,8 +33,8 @@
       <CountDown />
     </div>
 
-    <p data-aos="fade-up" data-aos-delay="400" class="text-xl mt-8 text-card-pink font-bold">
-      Chapel of Panagia (Zoodochos Pigi), Kozani
+    <p data-aos="fade-up" data-aos-delay="400" class="text-xl mt-8 text-card-gold font-bold">
+      Chapel of Panagia<br />(Zoodochos Pigi), Kozani
     </p>
   </section>
 </template>

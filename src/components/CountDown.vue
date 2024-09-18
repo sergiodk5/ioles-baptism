@@ -1,6 +1,6 @@
 <template>
   <div class="my-8 px-2" v-if="timeRemaining">
-    <h1 class="text-card-pink text-xl mb-2">Countdown to {{ targetDateString }}</h1>
+    <h1 class="text-card-pink text-xl mb-2">Countdown</h1>
     <div
       class="flex items-center justify-between border-t-[1px] border-b-[1px] border-card-gold px-2 gap-2"
     >

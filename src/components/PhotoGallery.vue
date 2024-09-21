@@ -1,7 +1,7 @@
 <template>
   <section id="gallery" class="bg-white py-10 px-4 text-center">
     <h2 data-aos="fade-up" class="mb-4 text-4xl font-bold text-center text-card-pink">
-      Photo Gallery
+      {{ t('photoGallery.title') }}
     </h2>
     <div class="columns-2 md:columns-4 xl:md:columns-6 gap-4 space-y-4">
       <img
@@ -17,4 +17,8 @@
   </section>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+</script>

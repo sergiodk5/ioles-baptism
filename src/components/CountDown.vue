@@ -1,19 +1,28 @@
 <template>
   <div class="my-8 px-2" v-if="timeRemaining">
-    <h1 class="text-card-pink text-xl mb-2">Countdown</h1>
+    <h1 class="text-card-pink text-xl mb-2">{{ t('dateTimeSection.countdown.Countdown') }}</h1>
     <div
       class="flex items-center justify-between border-t-[1px] border-b-[1px] border-card-gold px-2 gap-2"
     >
-      <span class="text-base text-card-gold">{{ timeRemaining.days }} Days</span>
-      <span class="text-base text-card-gold">{{ timeRemaining.hours }} Hours</span>
-      <span class="text-base text-card-gold">{{ timeRemaining.minutes }} Minutes</span>
-      <span class="text-base text-card-gold">{{ timeRemaining.seconds }} Seconds</span>
+      <span class="text-base text-card-gold">
+        {{ timeRemaining.days }} {{ t('dateTimeSection.countdown.days') }}
+      </span>
+      <span class="text-base text-card-gold">
+        {{ timeRemaining.hours }} {{ t('dateTimeSection.countdown.hours') }}
+      </span>
+      <span class="text-base text-card-gold">
+        {{ timeRemaining.minutes }} {{ t('dateTimeSection.countdown.minutes') }}
+      </span>
+      <span class="text-base text-card-gold">
+        {{ timeRemaining.seconds }} {{ t('dateTimeSection.countdown.seconds') }}
+      </span>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 interface TimeRemaining {
   days: number
@@ -21,6 +30,8 @@ interface TimeRemaining {
   minutes: number
   seconds: number
 }
+
+const { t } = useI18n()
 
 // Target date for the countdown: 5th October 2024 at 16:00
 const targetDateString = '2024-10-05T16:00:00'

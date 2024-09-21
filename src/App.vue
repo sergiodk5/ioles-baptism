@@ -24,7 +24,7 @@ import CantWait from '@/components/CantWait.vue'
 
 <style scoped>
 .papper-bg {
-  /* background-image: url('@/assets/wa tercolor-paper.png'); */
+  background-image: url('@/assets/watercolor-paper.png');
   background-repeat: repeat;
   background-attachment: fixed;
 }

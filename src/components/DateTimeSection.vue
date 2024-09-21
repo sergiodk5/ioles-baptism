@@ -4,7 +4,7 @@
       <svg width="200" height="200" viewBox="0 0 200 200" class="absolute top-0">
         <path id="curve" d="M 30,100 A 70,70 0 0,1 170,100" fill="transparent" stroke="none" />
         <text class="text-lg fill-card-pink" text-anchor="middle">
-          <textPath :href="'#curve'" startOffset="50%">OCTOBER</textPath>
+          <textPath :href="'#curve'" startOffset="50%">{{ t('dateTimeSection.october') }}</textPath>
         </text>
       </svg>
     </div>
@@ -12,13 +12,13 @@
       <div
         class="text-center border-t-[1px] border-b-[1px] border-card-pink py-1 text-2xl text-card-pink"
       >
-        SATURDAY
+        {{ t('dateTimeSection.saturday') }}
       </div>
       <div class="flex items-center justify-center text-card-gold text-6xl">05</div>
       <div
         class="text-center border-t-[1px] border-b-[1px] border-card-pink py-1 text-2xl text-card-pink"
       >
-        AT 6:00 PM
+        {{ t('dateTimeSection.at') }}
       </div>
     </div>
     <div
@@ -34,11 +34,15 @@
     </div>
 
     <p data-aos="fade-up" data-aos-delay="400" class="text-xl mt-8 text-card-gold font-bold">
-      Chapel of Panagia<br />(Zoodochos Pigi), Kozani
+      {{ t('dateTimeSection.chapel') }}<br />({{ t('dateTimeSection.chapelAlt') }}),
+      {{ t('dateTimeSection.city') }}
     </p>
   </section>
 </template>
 
 <script lang="ts" setup>
-import CountDown from './CountDown.vue'
+import CountDown from '@/components/CountDown.vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>

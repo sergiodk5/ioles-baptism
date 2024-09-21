@@ -1,0 +1,42 @@
+{
+  "logoSmall": {
+    "text": "Iole's Baptism"
+  },
+  "welcomeSection": {
+    "welcome": "Welcome to Iole's Baptism Celebration!"
+  },
+  "dateTimeSection": {
+    "october": "OCTOBER",
+    "saturday": "SATURDAY",
+    "at": "AT 6:00 PM",
+    "chapel": "Chapel of Panagia",
+    "chapelAlt": "(Zoodochos Pigi)",
+    "city": "Kozani",
+    "countdown": {
+      "Countdown": "Countdown",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    }
+  },
+  "guestStars": {
+    "title": "Guest Stars",
+    "parents": {
+      "title": "Proud Parents",
+      "father": "Patsikas Asterios",
+      "mother": "Vafeiadou Styliani"
+    },
+    "godparents": {
+      "title": "Loving Godparents",
+      "godfather": "Sakelis Leontios",
+      "godmother": "Antona Maria"
+    }
+  },
+  "photoGallery": {
+    "title": "Photo Gallery"
+  },
+  "footer": {
+    "cantWait": "We can't wait to share this special day with you!"
+  }
+}

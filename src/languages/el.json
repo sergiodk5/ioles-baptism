@@ -1,0 +1,42 @@
+{
+  "logoSmall": {
+    "text": "Βάπτιση της Ιόλης"
+  },
+  "welcomeSection": {
+    "welcome": "Καλώς ήρθατε στην βάπτιση της Ιόλης!"
+  },
+  "dateTimeSection": {
+    "october": "ΟΚΤΩΒΡΙΟΣ",
+    "saturday": "ΣΑΒΒΑΤΟ",
+    "at": "6:00 ΜΜ",
+    "chapel": "Εκκλησία της Παναγίας",
+    "chapelAlt": "Ζωοδόχου Πηγής",
+    "city": "Κοζάνη",
+    "countdown": {
+      "Countdown": "Αντίστροφη Μέτρηση",
+      "days": "Ημέρες",
+      "hours": "Ώρες",
+      "minutes": "Λεπτά",
+      "seconds": "Δευτ."
+    }
+  },
+  "guestStars": {
+    "title": "Guest Stars",
+    "parents": {
+      "title": "Υπερήφανοι Γονείς",
+      "father": "Πατσίκας Αστέριος",
+      "mother": "Βαφειάδου Στυλιανή"
+    },
+    "godparents": {
+      "title": "Στοργικοί Νονοί",
+      "godfather": "Σακελής Λεόντιος",
+      "godmother": "Αντωνά Μαρία"
+    }
+  },
+  "photoGallery": {
+    "title": "Φωτογραφικό Άλμπουμ"
+  },
+  "footer": {
+    "cantWait": "Ανυπομονούμε να μοιραστούμε αυτήν την ξεχωριστή μέρα μαζί σας!"
+  }
+}

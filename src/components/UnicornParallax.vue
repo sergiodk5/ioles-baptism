@@ -32,13 +32,32 @@ type ParallaxElem = {
 
 const parallaxElem = (): ParallaxElem => {
   const iconRandom = Math.floor(Math.random() * 100)
-  const elem = iconRandom < 33 ? 'unicorn' : iconRandom < 66 ? 'star' : 'cloud'
-  console.log(elem)
+  let elem: 'unicorn' | 'star' | 'cloud'
+  if (iconRandom < 33) {
+    elem = 'unicorn'
+  } else if (iconRandom < 66) {
+    elem = 'star'
+  } else {
+    elem = 'cloud'
+  }
+
+  let src: string
+  switch (elem) {
+    case 'unicorn':
+      src = Unicorn
+      break
+    case 'star':
+      src = Star
+      break
+    case 'cloud':
+      src = Cloud
+      break
+  }
   return {
     elem,
     top: Math.floor(Math.floor(Math.random() * 200) / 10) * 10,
     left: Math.floor(Math.floor(Math.random() * 100) / 10) * 10,
-    src: elem === 'unicorn' ? Unicorn : elem === 'star' ? Star : Cloud
+    src
   }
 }
 
@@ -49,11 +68,14 @@ const handleParallaxScroll = () => {
   const parallaxLayers = document.querySelectorAll('.parallax-layer')
 
   parallaxLayers.forEach((layer) => {
-    const speed = layer.classList.contains('unicorn')
-      ? 0.8
-      : layer.classList.contains('cloud')
-        ? 0.4
-        : 0.2
+    let speed: number
+    if (layer.classList.contains('unicorn')) {
+      speed = 0.8
+    } else if (layer.classList.contains('cloud')) {
+      speed = 0.4
+    } else {
+      speed = 0.2
+    }
     const yPos = -(scrollPosition * speed)
     ;(layer as HTMLElement).style.transform = `translateY(${yPos}px)`
   })

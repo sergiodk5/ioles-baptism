@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center">
+  <div class="flex items-center px-2">
     <div class="flex items-center gap-1 grow-0">
       <img src="@/assets/svg/star.svg" alt="Star" class="w-12 h-12" />
       <img src="@/assets/svg/unicorn.svg" alt="Unicorn" class="w-12 h-12" />
@@ -11,7 +11,9 @@
     <div class="ml-auto shrink-0 relative">
       <Menu>
         <MenuButton>{{ flag }}</MenuButton>
-        <MenuItems class="absolute top-full right-0 flex flex-col gap-1 w-36 bg-white rounded">
+        <MenuItems
+          class="absolute top-full right-0 flex flex-col gap-1 w-36 bg-white rounded shadow"
+        >
           <MenuItem
             v-for="link in links"
             :key="link.action"
@@ -21,6 +23,7 @@
           >
             <button
               @click="changeLocale(link.action)"
+              class="text-right w-full [&:not(:last-child)]:border-b-[1px ] border-gray-200"
               :class="{ 'bg-blue-500 text-white': active, 'bg-white text-black': !active }"
             >
               {{ link.label }}
